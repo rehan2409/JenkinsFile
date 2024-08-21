@@ -1,7 +1,7 @@
-pipeline{
+pipeline {
       agent any
 
-      steps{
+      stages {
             stage("Complie"){
               steps{
                   bat 'javac HelloWorld.java'
